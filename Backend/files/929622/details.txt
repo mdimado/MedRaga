@@ -1,0 +1,19 @@
+id:387677
+name:Priya 
+gender:Female
+age:55
+dob:
+temperature:97.2
+pulse:65
+bloodPressure:140/90
+height:5.5
+weight:70
+condition:Hypothyroidism
+description:Underactive thyroid gland, fatigue, weight gain, dry skin
+symptoms:Fatigue, constipation, sensitivity to cold, hair loss, depression
+personalHistory:History of thyroidectomy due to thyroid cancer
+familyHistory:Mother and sister diagnosed with hypothyroidism
+allergies:None
+medications:Levothyroxine replacement therapy
+reports:Recent thyroid function tests indicate elevated TSH levels
+remarks:Regular follow-ups for medication adjustment and monitoring thyroid levels

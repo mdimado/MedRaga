@@ -1,0 +1,388 @@
+
+.hero_content{
+    margin-top: 10%; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   
+}
+
+.hero__section h2{
+    font-size: 4.0rem;
+    font-weight: 750;
+    margin: 0px 0px;
+}
+
+.gradvpy{
+    background: -webkit-linear-gradient(#5d00ff, #ed0393);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.tal{
+    text-align: left;
+    font-size: 15px !important;
+    font-weight: 100;
+}
+
+.hero__section p{
+    color: #111;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+.hero__section p:nth-child(1){
+    font-weight: 500;
+}
+
+.h21{
+    margin-top: 20px;
+}
+
+.h22{
+    margin-bottom: 20px;
+}
+
+.h21 h2{
+    color: black;
+}
+.buy__button {
+    position: relative;
+    background: -webkit-linear-gradient(left, #5d00ff, #ed0393);
+    border-radius: 999px;
+    color: #FFFFFF;
+    cursor: pointer;
+    width: fit-content;
+    border: 0;
+    transition: background-color 0.4s ease;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 150px;
+}
+
+.buy__button::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #FFFFFF;
+    opacity: 0;
+    border-radius: 999px;
+    transition: opacity 0.4s ease;
+}
+
+.buy__button:hover::after {
+    opacity: 1;
+}
+
+.buy__button a {
+    position: relative;
+    z-index: 1;
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.buy__button a:hover{
+    background: -webkit-linear-gradient(#5d00ff, #ed0393);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.timer__count{
+    background: var(--hero-bg);
+    height: 347px;
+    object-fit: contain !important;
+}
+
+
+.timer-div{
+    display: flex;
+    flex-direction: row;
+}
+
+.timer__count img{
+   width: 70% !important;
+   height: 70% !important;
+    object-fit: cover !important;
+    margin-top: 0px !important;
+    margin-bottom: 30px;
+   
+
+}
+
+.lo{
+    text-align: center;
+}
+
+.per{
+    color: #088178 !important;
+}
+
+.store__btn{
+    margin-top: 20px;
+}
+
+.cardo {
+    width: 260px;
+    height: 450px;
+    background-color: #e3e3e3;
+    border-radius: 20px;
+    overflow: hidden;
+    
+  }
+
+  
+
+  .contento{
+    margin-top: 0px;
+    width: 260px;
+    height: 30px;
+    background-color: #e3e3e3;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+  .descriptiono{
+    margin-top: 10px;
+    width: 120px;
+    height: 30px;
+    background-color: #e3e3e3;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+  .dflexo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .lolo{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .colchange{
+    color: var(--primary-color) !important;
+  }
+
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination .page-item {
+    margin: 0 5px;
+  }
+  
+  .pagination .page-link {
+    padding: 8px 12px;
+    background-color: #f5f5f5;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .pagination .page-link:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .pagination .page-item.active .page-link {
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+  }
+
+  .fe-box{
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+.fe-box h6{
+    margin-top: 20px;
+    color: var(--primary-color) !important;
+}
+
+.coltex{
+    color: var(--primary-color) !important;
+    margin-bottom: 40px;
+}
+
+.fe-box:hover{
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+    transition: 0.2s ease;
+}
+
+.feature{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.feature-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Allow items to wrap to the next line if the container is not wide enough */
+  }
+  
+  .feature-link {
+    text-decoration: none; /* Remove default underline on links */
+    margin: 10px; /* Adjust margin as needed */
+  }
+  
+  .fe-box {
+    text-align: center; /* Center text horizontally */
+  }
+  
+  .fe-box img {
+    max-width: 100%; /* Make sure images don't exceed the container width */
+  }
+  
+
+.colourit{
+    background: var(--hero-bg);
+}
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 500px;
+    font-weight: bold;
+    text-decoration: none;
+    z-index: 999;
+    
+  }
+  
+  .whatsapp-button i{
+    font-size: 20px;
+  }
+  
+  .whatsapp-button:hover{
+    color: #fff;
+  }
+  
+  
+
+
+
+  
+
+@media only screen and (max-width:992px){
+    .hero_content{
+        margin-top: 0;
+    }
+    
+    .hero_content h2{
+        font-size: 3rem;
+
+    }
+
+    .section__title{
+        font-size: 1.7rem;
+    }
+
+    .timer__count{
+        height: fit-content;
+    }
+
+    .counter__img{
+        display: none;
+    }
+
+    .clock_top-content{
+        text-align: center;
+    }
+
+    .clock_top-content h4{
+        font-size: 0.9rem !important;
+    }
+
+    .clock_top-content h3{
+        font-size: 1rem !important;
+    }
+    .store__btn{
+        text-align: center;
+        display: inline-block;
+    }
+
+    .count__down-col {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .hero_content h2{
+        font-size: 3rem;
+
+    }
+
+    .hero_content p{
+        font-style: 0.9rem;
+
+    }
+
+    .buy__button a{
+        font-size: 0.9rem;
+    }
+
+    .section__title{
+        font-size: 1.4rem;
+    }
+    .row{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .feature{
+        justify-content: center;
+    }
+
+    .fe-box{
+        margin: 1px 15px 15px;
+    }
+}
+
+@media only screen and (max-width:576px){
+    .hero_content {
+        padding-top: 0 !important;
+        margin-bottom: 40px;
+        margin-top: 0;
+        
+    }
+
+    .hero_content p {
+        font-size: 0.9rem;
+    }
+
+    .buy__button{
+        font-size: 0.9rem;
+    }
+    .feature{
+        justify-content: space-between;
+    }
+
+    .feature .fe-box {
+        width: 155px;
+        margin: 0 0 15px 0;
+    }
+}
