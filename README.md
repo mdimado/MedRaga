@@ -16,7 +16,7 @@ This project utilizes Retrieval-Augmented Generation (RAG) to enhance the qualit
 3.  **Personalization**: Takes into account the unique medical history of each patient to offer personalized diagnoses and treatment plans.
 
 4.  **Trusted Information Sources**: Collects data only from reputable medical journals and websites, ensuring the reliability of the recommendations.
-5.  
+  
 ![Screenshot 2024-06-03 at 3 25 54 PM-modified](https://github.com/mdimado/MedRaga/assets/123477562/7e5d483c-79df-47c3-95aa-cb8a98fd045c)
 
 ### Abstract
