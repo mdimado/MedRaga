@@ -2,12 +2,10 @@ Medical Information Retrieval and Generation System
 ===================================================
 
 ### Overview
---------
 
 This project utilizes Retrieval-Augmented Generation (RAG) to enhance the quality and relevance of medical information provided to doctors. It combines retrieval-based and generation-based models to offer personalized diagnoses and treatment plans based on the doctor's query and the patient's medical history.
 
 ### Features
---------
 
 1.  **RAG Pipeline**: Combines retrieval and generation models to provide comprehensive medical information tailored to each patient's needs.
 
@@ -18,7 +16,6 @@ This project utilizes Retrieval-Augmented Generation (RAG) to enhance the qualit
 4.  **Trusted Information Sources**: Collects data only from reputable medical journals and websites, ensuring the reliability of the recommendations.
 
 ### Abstract
---------
 
 The project obtains the latest medical research from trusted sources using APIs and web scraping. PDF files and articles are downloaded, indexed, and converted to text embeddings using Cohere. These embeddings are stored as vectors in a vector database (Qdrant).
 
