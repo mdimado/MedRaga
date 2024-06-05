@@ -1,4 +1,4 @@
-AI – Enhanced Diagnostic & Treatment Planning System
+MedRaga - AI Enhanced Diagnostic & Treatment Planning System
 ===================================================
 
 ### Overview
