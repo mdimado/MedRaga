@@ -1,4 +1,4 @@
-##Medical Information Retrieval and Generation System
+Medical Information Retrieval and Generation System
 ===================================================
 
 ### Overview
