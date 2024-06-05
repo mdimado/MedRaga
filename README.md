@@ -1,11 +1,11 @@
-![Screenshot 2024-06-03 at 3 26 06 PM-modified](https://github.com/mdimado/MedRaga/assets/123477562/e9dad2fe-81f6-4388-9970-21c5c18f8654)MedRaga - AI Enhanced Diagnostic & Treatment Planning System
+MedRaga - AI Enhanced Diagnostic & Treatment Planning System
 ===================================================
 
 ### Overview
 
 This project utilizes Retrieval-Augmented Generation (RAG) to enhance the quality and relevance of medical information provided to doctors. It combines retrieval-based and generation-based models to offer personalized diagnoses and treatment plans based on the doctor's query and the patient's medical history.
 
-![Screenshot 2024-06-03 at 3 25 41 PM-modified](https://github.com/mdimado/MedRaga/assets/123477562/fcc8cab1-90ff-4330-8862-4209f69fce33)
+![Screenshot 2024-06-03 at 3 26 06 PM-modified](https://github.com/mdimado/MedRaga/assets/123477562/e9dad2fe-81f6-4388-9970-21c5c18f8654)
 
 ### Features
 
