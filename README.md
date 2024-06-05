@@ -1,4 +1,4 @@
-Medical Information Retrieval and Generation System
+AI – Enhanced Diagnostic & Treatment Planning System
 ===================================================
 
 ### Overview
