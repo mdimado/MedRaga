@@ -1,9 +1,11 @@
-MedRaga - AI Enhanced Diagnostic & Treatment Planning System
+![Screenshot 2024-06-03 at 3 26 06 PM-modified](https://github.com/mdimado/MedRaga/assets/123477562/e9dad2fe-81f6-4388-9970-21c5c18f8654)MedRaga - AI Enhanced Diagnostic & Treatment Planning System
 ===================================================
 
 ### Overview
 
 This project utilizes Retrieval-Augmented Generation (RAG) to enhance the quality and relevance of medical information provided to doctors. It combines retrieval-based and generation-based models to offer personalized diagnoses and treatment plans based on the doctor's query and the patient's medical history.
+
+![Screenshot 2024-06-03 at 3 25 41 PM-modified](https://github.com/mdimado/MedRaga/assets/123477562/fcc8cab1-90ff-4330-8862-4209f69fce33)
 
 ### Features
 
@@ -14,6 +16,8 @@ This project utilizes Retrieval-Augmented Generation (RAG) to enhance the qualit
 3.  **Personalization**: Takes into account the unique medical history of each patient to offer personalized diagnoses and treatment plans.
 
 4.  **Trusted Information Sources**: Collects data only from reputable medical journals and websites, ensuring the reliability of the recommendations.
+5.  
+![Screenshot 2024-06-03 at 3 25 54 PM-modified](https://github.com/mdimado/MedRaga/assets/123477562/7e5d483c-79df-47c3-95aa-cb8a98fd045c)
 
 ### Abstract
 
@@ -21,7 +25,10 @@ The project obtains the latest medical research from trusted sources using APIs 
 
 When a doctor queries the prototype, it retrieves the most relevant information and adds it to the context window of the Language Model (LLM). The LLM then takes the new context window, the original prompt, and the summarized patient history to generate the output.
 
-### Installation
+![Screenshot 2024-06-03 at 3 25 41 PM-modified](https://github.com/mdimado/MedRaga/assets/123477562/872f10ca-f1e9-4ad4-b3af-3ede3d48691a)
+
+
+### Usage
 
 1. Clone this repository to your local machine:
 
